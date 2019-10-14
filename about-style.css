@@ -1,0 +1,70 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    height:100%;
+}
+
+html{
+    height: 100%;
+}
+
+.navbar{
+    margin-bottom: 50px;
+    background-color: rgb(39, 39, 39) !important;
+}
+
+#title{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border-top: 1px solid white;
+    padding-bottom: 40px;
+    width: 400px;
+}
+
+#contacts{
+    margin: auto;
+    margin-top:140px;
+    width: 500px;
+    border-radius: 10px;
+    background-color:rgba(39, 39, 39, 0.95);
+    border: darkgray solid 5px;
+}
+
+ul {
+    list-style: none;
+    padding:0px;
+    text-align:center;
+}
+
+#uth{
+    padding-top: 20px;
+    /* padding:auto; */
+}
+
+#github{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding:auto; */
+}
+
+img{
+    /* height:50px; */
+    width:50px;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+  }
